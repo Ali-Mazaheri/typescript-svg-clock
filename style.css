@@ -1,0 +1,50 @@
+/* App */
+.wrapper{
+  display: inline-block;
+  text-align:center;
+  margin: 5px;
+}
+
+.clock{
+  width: 210px;
+  height: 210px;
+}
+
+.wrapper span {
+  display: inline-block;
+  font-weight: bold;
+  user-select: none;
+}
+
+
+/* Clock */
+.clockFace{
+  fill: whitesmoke;
+  stroke: #888;
+}
+
+.dateRect,.dateText{
+  font: arial;
+  stroke: red;
+  stroke-width: 1;
+  fill: transparent;
+}
+.faceGroup{
+  stroke: red;
+  stroke-width: 1;
+}
+
+.hourHand{
+  stroke: #555;
+}
+
+.minuteHand{
+  stroke: #999;
+}
+
+.secondHand{
+  stroke: #a00;
+}
+.updateGroup {
+  stroke-linecap: round;
+}
